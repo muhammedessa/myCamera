@@ -1,3 +1,28 @@
+بعد التحديثات الاخيرة ل فايريبز النسخة الخامسة قد تظهر مشكلة في حالة ظهور مشكلة ممكن اتباع الخطوات التالية : 
+
+
+Step 1: Uninstall with the following command
+
+npm uninstall --save firebase
+Step 2: Now, open your package.json file. There, you will find:
+
+"angularfire2": "^5.0.0-rc.4"
+Step 3: Below this line, add a this line (without the Caret(^) symbol): and save
+
+"firebase": "4.8.0"
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
